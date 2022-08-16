@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer id="twiceweek_customindexer_indexer" view_id="twiceweek_customindexer_indexer" class="Twiceweek\CustomIndexer\Model\Indexer\Test">
+        <title translate="true">Twice Customindexer Indexer</title>
+        <description translate="true">This is the description of Twice Customindexer Indexer</description>
+    </indexer>
+</config>
