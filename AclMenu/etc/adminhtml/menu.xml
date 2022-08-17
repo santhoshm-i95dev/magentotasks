@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Twiceweek_AclMenu::belowadmin" title="belowadmin" module="Twiceweek_AclMenu" sortOrder="51" resource="Twiceweek_AclMenu::belowadmin"/>
+        <add id="Twiceweek_AclMenu::c1belowadmin" title="c1belowadmin" module="Twiceweek_AclMenu" sortOrder="10" action="twiceweek/aclMenu/post" resource="Twiceweek_AclMenu::c1belowadmin" parent="Twiceweek_AclMenu::belowadmin"/>
+        <add id="Twiceweek_AclMenu::c2belowadmin" title="c2belowadmin" module="Twiceweek_AclMenu" sortOrder="99" parent="Twiceweek_AclMenu::belowadmin" action="twiceweek/aclMenu/post" resource="Twiceweek_AclMenu::c2belowadmin"/>
+    </menu>
+</config>

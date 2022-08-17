@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Twiceweek_AclMenu::belowadmin" title="This is belowadmin resource" sortOrder="51">
+                    <resource id="Twiceweek_AclMenu::c1belowadmin" title="This is c1belowadmin resource" sortOrder="10"/>
+                    <resource id="Twiceweek_AclMenu::c2belowadmin" title="This is c2belowadmin resource" sortOrder="99" />
+                </resource>
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="Twiceweek_AclMenu::helloworld_config" title="Hello World"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
